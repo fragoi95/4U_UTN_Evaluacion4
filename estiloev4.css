@@ -1,0 +1,84 @@
+/* ARCHIVO ESTILOS EVALUACIÓN 4*/
+/* FORMATO DEL CONTENEDOR */
+#contenedor {
+    width: 960px;
+    margin: 0 auto; /* Centrar el contenedor */
+    background-color: rgba(128, 128, 128, 0.562);
+    margin: auto;
+    margin-right: auto;
+}
+/* FORMATO DE LA CABECERA */
+#cabecera {
+    height: 150px; 
+    width: 870px;
+    background-color:  rgb(135, 86, 182);
+    margin: auto;
+    margin-right: auto;
+}
+/* formato del menú horizontal*/
+#menu_horizontal {
+    height: 100px; 
+    width: 650px;
+    background-color: rgb(133, 157, 46); /* Rojo */
+    float: left;
+
+}
+/* formato de la barra de buscar*/
+#barra_buscar {
+    height: 100px; 
+    width: 150px;
+    background-color: rgb(157, 133, 157); 
+    float: right;
+}
+/* FORMATO GENERAL PARA TODAS LAS SECCIONES */
+#seccion_1, #seccion_2, #seccion_3 {
+    height: 300px; /* Misma altura para cada sección */
+    width: 870px;
+    margin: auto;
+    margin-right: auto;
+}
+/* FORMATO INDIVIDUAL PARA CADA SECCIÓN */
+#seccion_1 {
+    background-color: rgba(152, 152, 47, 0.53); 
+}
+
+#seccion_2 {
+    background-color: rgba(0, 0, 255, 0.482); 
+}
+
+#seccion_3 {
+    background-color: rgba(255, 0, 255, 0.366); 
+}
+/*definicion de las caracteristicas de cada articulo*/
+.sec_1 {
+    width: 270px;
+    height: 280px;
+    float: left;
+    background-color: brown;
+    margin: 10px;
+}
+
+.sec_2 {
+    width: 270px;
+    height: 280px;
+    float: left;
+    background-color: rgba(247, 216, 46, 0.768);
+    margin: 10px;
+}
+
+.sec_3 {
+    width: 270px;
+    height: 280px;
+    float: left;
+    background-color: rgb(99, 212, 163);
+    margin: 10px;
+}
+
+/* FORMATO DEL PIE DE LA PAGINA*/
+#pie_pag {
+    height: 100px; 
+    width: 870px;
+    background-color: rgb(0, 255, 102); 
+    margin: auto;
+    margin-right: auto;
+}
