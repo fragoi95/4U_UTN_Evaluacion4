@@ -3,7 +3,7 @@
 #contenedor {
     width: 960px;
     margin: 0 auto; /* Centrar el contenedor */
-    background-color: rgba(128, 128, 128, 0.562);
+    background-color: #92b6d5;
     margin: auto;
     margin-right: auto;
 }
@@ -11,7 +11,7 @@
 #cabecera {
     height: 150px; 
     width: 870px;
-    background-color:  rgb(135, 86, 182);
+    background-color:  #838487;
     margin: auto;
     margin-right: auto;
 }
@@ -19,7 +19,8 @@
 #menu_horizontal {
     height: 100px; 
     width: 650px;
-    background-color: rgb(133, 157, 46); /* Rojo */
+    background-color: #d8ae47;
+    margin: 15px;
     float: left;
 
 }
@@ -27,7 +28,8 @@
 #barra_buscar {
     height: 100px; 
     width: 150px;
-    background-color: rgb(157, 133, 157); 
+    background-color: #e94b3c; 
+    margin: 15px;
     float: right;
 }
 /* FORMATO GENERAL PARA TODAS LAS SECCIONES */
@@ -39,46 +41,46 @@
 }
 /* FORMATO INDIVIDUAL PARA CADA SECCIÓN */
 #seccion_1 {
-    background-color: rgba(152, 152, 47, 0.53); 
+    background-color: #c07672; 
 }
 
 #seccion_2 {
-    background-color: rgba(0, 0, 255, 0.482); 
+    background-color:#b3fff6; 
 }
 
 #seccion_3 {
-    background-color: rgba(255, 0, 255, 0.366); 
+    background-color: #e6af91; 
 }
 /*definicion de las caracteristicas de cada articulo*/
 .sec_1 {
-    width: 270px;
-    height: 280px;
+    width: 250px;
+    height: 260px;
     float: left;
-    background-color: brown;
-    margin: 10px;
+    background-color: #d1b894;
+    margin: 20px;
 }
 
 .sec_2 {
-    width: 270px;
-    height: 280px;
+    width: 850px;
+    height: 80px;
     float: left;
-    background-color: rgba(247, 216, 46, 0.768);
+    background-color: #be9ec9;
     margin: 10px;
 }
 
 .sec_3 {
     width: 270px;
-    height: 280px;
+    height: 240px;
     float: left;
-    background-color: rgb(99, 212, 163);
-    margin: 10px;
+    background-color: #0A7E8C;
+    margin: 30px 10px;
 }
 
 /* FORMATO DEL PIE DE LA PAGINA*/
 #pie_pag {
     height: 100px; 
     width: 870px;
-    background-color: rgb(0, 255, 102); 
+    background-color:#7f4145; 
     margin: auto;
     margin-right: auto;
 }
