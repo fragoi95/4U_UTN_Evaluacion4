@@ -1,19 +1,16 @@
 /* ARCHIVO ESTILOS EVALUACIÓN 4*/
 /* FORMATO DEL CONTENEDOR */
-#contenedor {
-    width: 960px;
-    margin: 0 auto; /* Centrar el contenedor */
-    background-color: #92b6d5;
+header section footer {
+    width: 1200px;
+    margin: 0 auto;
     margin: auto;
     margin-right: auto;
 }
 /* FORMATO DE LA CABECERA */
-#cabecera {
+header {
     height: 150px; 
-    width: 870px;
     background-color:  #838487;
-    margin: auto;
-    margin-right: auto;
+    
 }
 /* formato del menú horizontal*/
 #menu_horizontal {
@@ -33,11 +30,8 @@
     float: right;
 }
 /* FORMATO GENERAL PARA TODAS LAS SECCIONES */
-#seccion_1, #seccion_2, #seccion_3 {
-    height: 300px; /* Misma altura para cada sección */
-    width: 870px;
-    margin: auto;
-    margin-right: auto;
+section {
+    height: 600px; /* Misma altura para cada sección */
 }
 /* FORMATO INDIVIDUAL PARA CADA SECCIÓN */
 #seccion_1 {
@@ -77,10 +71,8 @@
 }
 
 /* FORMATO DEL PIE DE LA PAGINA*/
-#pie_pag {
-    height: 100px; 
-    width: 870px;
+footer {
+    height: 100px;
     background-color:#7f4145; 
-    margin: auto;
-    margin-right: auto;
+
 }
