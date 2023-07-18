@@ -1,22 +1,21 @@
 /* ARCHIVO ESTILOS EVALUACIÓN 4*/
-/* FORMATO DEL CONTENEDOR */
+/* FORMATO GENERAL DE LA PAGINA */
 header section footer {
     width: 1200px;
-    margin: 0 auto;
     margin: auto;
     margin-right: auto;
 }
 /* FORMATO DE LA CABECERA */
 header {
     height: 150px; 
-    background-color:  #838487;
+    background-color:  #273043;  /* Oscuro Azul Marino */
     
 }
 /* formato del menú horizontal*/
 #menu_horizontal {
     height: 100px; 
     width: 650px;
-    background-color: #d8ae47;
+    background-color: #d9b310;  /* Amarillo-dorado apagado */
     margin: 15px;
     float: left;
 
@@ -25,7 +24,7 @@ header {
 #barra_buscar {
     height: 100px; 
     width: 150px;
-    background-color: #e94b3c; 
+    background-color: #a8d0e6; 
     margin: 15px;
     float: right;
 }
@@ -35,22 +34,23 @@ section {
 }
 /* FORMATO INDIVIDUAL PARA CADA SECCIÓN */
 #seccion_1 {
-    background-color: #c07672; 
+    background-color:  #414770;  /* Azul marino oscuro */
+}
 }
 
 #seccion_2 {
-    background-color:#b3fff6; 
+    background-color: #324a5f;  /* Azul marino más oscuro */
 }
 
 #seccion_3 {
-    background-color: #e6af91; 
+    background-color: #9dab86;  /* Verde oliva apagado */
 }
 /*definicion de las caracteristicas de cada articulo*/
 .sec_1 {
     width: 250px;
     height: 260px;
     float: left;
-    background-color: #d1b894;
+    background-color:  #6c5b7b;  /* Lila oscuro */
     margin: 20px;
 }
 
@@ -58,7 +58,7 @@ section {
     width: 850px;
     height: 80px;
     float: left;
-    background-color: #be9ec9;
+    background-color: #5eaaa8;  /* Azul verdoso */
     margin: 10px;
 }
 
@@ -66,13 +66,13 @@ section {
     width: 270px;
     height: 240px;
     float: left;
-    background-color: #0A7E8C;
+    background-color: #1a2d50;  /* Azul marino muy oscuro */
     margin: 30px 10px;
 }
 
 /* FORMATO DEL PIE DE LA PAGINA*/
 footer {
     height: 100px;
-    background-color:#7f4145; 
-
+    background-color:#383b53;  /* Gris azulado oscuro */
 }
+
