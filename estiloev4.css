@@ -1,12 +1,6 @@
 /* ARCHIVO ESTILOS EVALUACIÓN 4*/
 /* FORMATO GENERAL DE LA PAGINA */
-#contenedor {
-    width: 1200px;
-    margin: auto;
-    margin-right: auto;
-}
-
-header section footer {
+header, section, footer {
     width: 1200px;
     margin: auto;
     margin-right: auto;
